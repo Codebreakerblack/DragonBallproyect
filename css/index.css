@@ -1,0 +1,15 @@
+.cardDragonball {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.card-img-top {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    font-weight: bold;
+    border: 3px solid black;
+}
