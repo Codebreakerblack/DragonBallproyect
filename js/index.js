@@ -1,11 +1,9 @@
-const API_URL = "https://web.dragonball-api.com/"
+const requestURL = 'https://dragonball-api.com/api/characters?limit=58';
 
-const HTMLresponse =  doc.querySelector("#DragonBall")
+async function fetchDragonBallJson(){
+    const response = await fetch(requestURL);
+    const dragonBall = await response.json();
+    return dragonBall;
+}
 
-
-
-fetch(`${API_URL}/names`)
-    .then(reponse => response.json())
-    .then(names => {
-        const data = name.map (name => ` <li></li>)
-    })
+console.log(dragonBall(id))
