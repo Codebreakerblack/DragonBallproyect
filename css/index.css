@@ -1,31 +1,109 @@
-* {
-    background-color: aliceblue;
-    margin: 0%;
-    padding: 0%;
-    font-size: 30px;
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    background-color: #f2f6fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
 
-.cardDragonball {
+header {
+    background-color:#ffcc00;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 550px;
+    border-radius: 8%;
+}
+
+header h1 {
+    color: #333;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px #ff5733;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+#dragonballSection {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    border-radius: 100rem;
-    gap: 30px 30px;
-    color: aqua;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    width: calc(25% - 20px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
 .card-img-top {
-    width: 200px;
-    height: 300px;
+    width: 100%;
+    height: 30vh;
     object-fit: contain;
-    font-weight: bold;
-    border: 3px solid black;
-    background-color: #97979733;
+    border-bottom: 4px solid #ff5733;
+    background-color: #ffcc00;
 }
 
 .card-body {
-    color: aquamarine;
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 50px;
+    color: #ff5733;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 25px;
+    color: #333;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.card-text2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffcc00;
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 30px;
 }
