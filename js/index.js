@@ -1,4 +1,5 @@
 const requestURL = 'https://dragonball-api.com/api/characters?limit=58';
+const requestURL2 = 'https://dragonball-api.com/api/planets?limit=20';
 
 async function fetchDragonBallJson() {
         const response = await fetch(requestURL);
@@ -20,16 +21,16 @@ async function fetchDragonBallJson() {
 
         dragonballSection.innerHTML += `
             
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 36rem;">
             <img src="${image}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">${name}</h5>
+                <p class="card-title">${name}</p>
                 <p class="card-text">${race} - ${gender}</p>
-                <p>Base KI:</p>
+                <p class="card-text2">Base KI:</p>
                 <p class="card-text">${ki}</p>
-                <p>Total KI:</p>
+                <p class="card-text2">Total KI:</p>
                 <p class="card-text">${maxKi}</p>
-                <p>Affiliation:</p>
+                <p class="card-text2">Affiliation:</p>
                 <p class="card-text">${affiliation}</p>
 
             </div>
@@ -38,4 +39,5 @@ async function fetchDragonBallJson() {
 
             `;
 
+            
 }}});

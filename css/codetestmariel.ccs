@@ -1,0 +1,61 @@
+
+.card-text {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fbc02d;
+    font-weight: 400;
+}
+
+.card-text2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color:white;
+
+}
+
+.card-title {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+   
+}
+
+.DradonBall {
+    text-align: center;
+}
+
+.h {
+    text-align: center;
+    font-size: 50px;
+}
+
+                                    sync function fetchPlanetJson() {
+                                            const response = await fetch(requestURL2);
+                                            const planets = await response.json();
+                                            return planets;
+                                    }
+
+                                        fetchPlanetJson().then(data => {
+                                            if (data.items && data.items.length > 0) {
+                                                for (let i = 0; i < data.items.length; i++) {
+
+                                                let name  = data.items[i].name;
+                                                let isDestroyed  = data.items[i].isDestroyed;
+                                                let description  = data.items[i].description;
+                                                let image  = data.items[i].image;
+
+                                            dragonballSection.innerHTML += `
+                                                
+                                                <div class="card" style="width: 36rem;">
+                                                <img src="${image}" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <p class="card-title">${name}</p>
+                                                    <p class="card-text">${isDestroyed}</p>
+                                                    <p class="card-text">${description}</p>
+
+                                                </div>
+                                                
+                                                </div>
+
+                                                `;
