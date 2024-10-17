@@ -45,7 +45,7 @@ Muestra una lista de planetas del universo de Dragon Ball con sus descripciones.
 
 ## Captura de Pantalla
 
-![Captura de Pantalla](https://drive.google.com/file/d/12z5OfYviOI6GLfQbs5NzyiGIqqnBKcfz/view?usp=drive_link)
-![Captura de Pantalla](https://drive.google.com/file/d/12z5OfYviOI6GLfQbs5NzyiGIqqnBKcfz/view?usp=drive_link)
+![Captura de Pantalla](file:///home/factoriaf5/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202024-10-18%2000-15-20.png
+![Captura de Pantalla](file:///home/factoriaf5/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202024-10-18%2000-15-48.png)
 
 
