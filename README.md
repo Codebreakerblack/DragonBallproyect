@@ -56,6 +56,5 @@ Aquí puedes ver la página en acción: Ver el sitio en GitHub Pages https://cod
 
 **Autor Mariel Blanco**
 
->>>>>>> 02a2f789d76254926cea2cf54f6536303e424fe5
 
 
