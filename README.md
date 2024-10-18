@@ -23,29 +23,36 @@ Para ejecutar el proyecto localmente, sigue estos pasos:
 2. Abre el archivo index.html en tu navegador:
     Puedes hacerlo arrastrando el archivo index.html a la ventana del navegador.
 3. Estructura del Proyecto:
-        /DragonBallproject
-        ├── /css
-        │   ├── index.css
-        │   └── planet.css
-        ├── /js
-        │   └── index.js
-        ├── index.html
-        ├── planets.html
-        └── README.md
+      - /DragonBallproject
+         - /css
+            - index.css
+            - planet.css
+         - /js
+            - index.js
+         - index.html
+         - planets.html
+         - README.md
 
 ## Funcionalidades
 
-Página de Personajes:
+1. Página de Personajes: Muestra una lista de personajes de Dragon Ball con su información relevante.
+2. Página de Planetas: Muestra una lista de planetas del universo de Dragon Ball con sus descripciones.
 
-Muestra una lista de personajes de Dragon Ball con su información relevante.
-Los datos se obtienen de la API y se presentan de forma paginada.
-Página de Planetas:
+   Los datos se obtienen de la API y se presentan de forma paginada.
 
-Muestra una lista de planetas del universo de Dragon Ball con sus descripciones.
+ ## Vista previa
+
+Aquí puedes ver la página en acción: Ver el sitio en GitHub Pages https://codebreakerblack.github.io/DragonBallproyect/
 
 ## Captura de Pantalla
 
 ![](https://github.com/Codebreakerblack/DragonBallproyect/blob/addplanet/Captura%20desde%202024-10-18%2000-15-20.png)
+
+
+![](https://github.com/Codebreakerblack/DragonBallproyect/blob/addplanet/Captura%20desde%202024-10-18%2000-15-48.png)
+
+
+**Autor Mariel Blanco**
 
 
 
