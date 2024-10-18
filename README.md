@@ -45,7 +45,7 @@ Muestra una lista de planetas del universo de Dragon Ball con sus descripciones.
 
 ## Captura de Pantalla
 
-![Captura de Pantalla](https://github.com/Codebreakerblack/DragonBallproyect/issues/5#issuecomment-2420730131)
-![Captura de Pantalla](Captura desde 2024-10-18 00-15-20.png)
+![](https://github.com/Codebreakerblack/DragonBallproyect/blob/addplanet/Captura%20desde%202024-10-18%2000-15-20.png)
+
 
 
