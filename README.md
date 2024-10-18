@@ -46,6 +46,9 @@ Aquí puedes ver la página en acción: Ver el sitio en GitHub Pages https://cod
 
 ## Captura de Pantalla
 
+<<<<<<< HEAD
+![Captura de Pantalla]()
+=======
 ![](https://github.com/Codebreakerblack/DragonBallproyect/blob/addplanet/Captura%20desde%202024-10-18%2000-15-20.png)
 
 
@@ -54,5 +57,6 @@ Aquí puedes ver la página en acción: Ver el sitio en GitHub Pages https://cod
 
 **Autor Mariel Blanco**
 
+>>>>>>> 02a2f789d76254926cea2cf54f6536303e424fe5
 
 
